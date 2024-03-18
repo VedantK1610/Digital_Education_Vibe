@@ -41,3 +41,18 @@ def about_us(request):
 
 def bca_course(request):
     return render(request,"course_pages/BCA.html")
+
+def bcom_course(request):
+    return render(request,"course_pages/B-COM.html")
+
+def ba_course(request):
+    return render(request,"course_pages/BA.html")
+
+def mcom_course(request):
+    return render(request,"course_pages/M-COM.html")
+
+def bba_course(request):
+    return render(request,"course_pages/BBA.html")
+
+def mca_course(request):
+    return render(request,"course_pages/MCA.html")

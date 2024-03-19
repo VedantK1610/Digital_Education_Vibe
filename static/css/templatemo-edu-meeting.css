@@ -1885,8 +1885,12 @@ responsive
 
   section.contact-us #contact {
     margin-bottom: 30px;
+    margin-top: 100px
   }
 
+  th,td{
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1901,6 +1905,11 @@ responsive
 
   .main-nav .nav .sub-menu {
     display: none;
+  }
+
+  
+  th,td{
+    font-size: 8px;
   }
 
   .header-area .main-nav .nav li ul.sub-menu li a {

@@ -1891,6 +1891,11 @@ responsive
   th,td{
     font-size: 8px;
   }
+
+  section.meetings-page .filters li, section.perticular-page .filters li{
+    margin-top: 2px;
+    padding: 5px 10px;
+  }
 }
 
 @media (max-width: 767px) {

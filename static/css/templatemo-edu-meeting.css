@@ -1754,6 +1754,7 @@ tr:hover {
   color: #f5a425;
 }
 
+
 /* Meeting item column */
 .templatemo-item-col {
   flex: 1;
@@ -1921,4 +1922,65 @@ responsive
     color: #1f272b;
   }
 
+}
+
+.img-vision {
+  float: left;
+  margin-right: 10px;
+  width: 680px;
+  height: auto;
+}
+
+.imgtxt {
+  font-size: 37px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.container {
+  padding-left: 10px;
+}
+
+.paratext {
+  font-size: 10px;
+}
+
+.parts {
+  display: flex;
+  padding-left: 10px;
+}
+
+.visionl {
+  flex: 1;
+  padding-right: 5px;
+}
+
+.visionr {
+  flex: 1;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.element-overlay {
+  display: flex;
+  color: white;
+  padding-top: 20px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.first_elem {
+  flex-basis: 30%;
+  padding-left: 10px;
+}
+
+.second_elem {
+  flex-basis: 30%;
+  padding-left: 10px;
+}
+
+.third_elem {
+  flex-basis: 30%;
+  padding-left: 10px;
 }

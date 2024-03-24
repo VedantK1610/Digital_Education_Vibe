@@ -219,7 +219,7 @@ header
 }
 
 .sub-header .right-icons {
-  text-align: right;
+  text-align: center;
   padding: 8px 0px;
 }
 
@@ -350,14 +350,15 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color:#a12c2f!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #a12c2f!important;
   opacity: 1;
 }
+/* #f5a425 */
 
 .header-area .main-nav .nav li.has-sub {
   position: relative;
@@ -557,7 +558,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #f5a425;
+  color: #a12c2f;
 }
 
 @media (max-width: 1200px) {
@@ -577,7 +578,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #f5a425!important;
+    color:#a12c2f!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -882,6 +883,10 @@ services
   line-height: 50px;
 }
 
+.item{
+  box-sizing: border-box;
+  border-radius: 15px;
+}
 
 /*
 ---------------------------------------------
@@ -906,7 +911,7 @@ section.upcoming-meetings .section-heading {
 section.upcoming-meetings .categories {
   background-color: #fff;
   border-radius: 20px;
-  padding: 40px;
+  padding: 44px;
   margin-right: 45px;
 }
 
@@ -1301,7 +1306,7 @@ section.our-facts h2 {
 }
 
 .new-students {
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 section.our-facts .video {
@@ -1312,6 +1317,8 @@ section.our-facts .video {
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
+  max-height: 335px;
+  margin-top: 95px;
 }
 
 section.our-facts .video img {

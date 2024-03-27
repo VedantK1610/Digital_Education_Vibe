@@ -219,9 +219,12 @@ header
 }
 
 .sub-header .right-icons {
-  text-align: center;
+  text-align: right;
   padding: 8px 0px;
+ padding-right: 23px;
 }
+
+
 
 .sub-header .right-icons ul li {
   display: inline-block;
@@ -1761,6 +1764,13 @@ tr:hover {
   color: #f5a425;
 }
 
+.description{
+  max-height: 600px;
+}
+.crs-img{
+  height: 300px;
+  width: 100%;
+}
 
 /* Meeting item column */
 .templatemo-item-col {

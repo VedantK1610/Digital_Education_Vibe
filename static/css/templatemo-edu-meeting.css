@@ -353,12 +353,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color:#a12c2f!important;
+  color:#f5a425!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #a12c2f!important;
+  color: #f5a425!important;
   opacity: 1;
 }
 /* #f5a425 */
@@ -1135,7 +1135,7 @@ section.our-courses {
   font-size: 18px;
   color: #1f272b;
   text-align: center; 
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 
 .our-courses .item .down-content .info {
@@ -1380,8 +1380,9 @@ section.contact-us #contact input {
 
 section.contact-us #contact textarea {
   width: 100%;
-  min-height: 140px;
-  max-height: 180px;
+  /* min-height: 140px;
+  max-height: 180px; */
+  height: 40px;
   border-radius: 20px;
   background-color: #f7f7f7;
   outline: none;
@@ -1390,7 +1391,7 @@ section.contact-us #contact textarea {
   font-size: 13px;
   font-weight: 500;
   color: #7a7a7a;
-  padding: 15px;
+  padding: 10px 15px;
   margin-bottom: 30px;
 }
 
@@ -1764,6 +1765,15 @@ tr:hover {
   color: #f5a425;
 }
 
+.item-image-css{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.item-down-css{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 .description{
   max-height: 600px;
 }
@@ -1914,6 +1924,9 @@ responsive
     margin-top: 2px;
     padding: 5px 10px;
   }
+  /* section.contact-us{
+    padding-top: 0px;
+  } */
 }
 
 @media (max-width: 767px) {
@@ -1938,6 +1951,9 @@ responsive
   .header-area .main-nav .nav li ul.sub-menu li a {
     color: #1f272b;
   }
+  /* section.contact-us{
+    padding-top: 15px;
+  } */
 
 }
 

@@ -7,12 +7,14 @@ def index(request):
     if request.method=='POST':
         name=request.POST.get('name')
         email=request.POST.get('email')
+        mobile=request.POST.get('mobile')
         course_select=request.POST.get('course-select')
         message=request.POST.get('message')
 
         data ={
             'name':name,
             'email':email,
+            'mobile':mobile,
             'course_select':course_select,
             'message':message
         }
@@ -21,8 +23,10 @@ def index(request):
 
             From : {}
 
+            Mobile Number : {}
+
             Enquiry : {}
-        '''.format(data['course_select'],data['email'],data['message'])
+        '''.format(data['course_select'],data['email'],data['mobile'],data['message'])
 
         send_mail(data['course_select'],all_message,EMAIL_HOST_USER,[data['email']],fail_silently=False,)
     return render(request,"index.html")

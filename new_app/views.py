@@ -60,3 +60,6 @@ def bba_course(request):
 
 def mca_course(request):
     return render(request,"course_pages/MCA.html")
+
+def mba_courses(request):
+    return render(request,"MBA-courses.html")

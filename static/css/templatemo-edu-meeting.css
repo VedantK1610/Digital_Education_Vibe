@@ -914,7 +914,7 @@ section.upcoming-meetings .section-heading {
 section.upcoming-meetings .categories {
   background-color: #fff;
   border-radius: 20px;
-  padding: 44px;
+  padding: 16px;
   margin-right: 45px;
 }
 
@@ -965,6 +965,7 @@ section.upcoming-meetings .categories .main-button-red a {
 .meeting-item .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  height: 220px;
 }
 
 .meeting-item .thumb .price {
@@ -1484,7 +1485,7 @@ heading page
 ---------------------------------------------
 */
 
-section.heading-page,section.heading-page2,section.heading-BCA {
+section.heading-page,section.heading-page2,section.heading-BCA,section.heading-page3 {
   background-image: url(../images/heading-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -1499,8 +1500,10 @@ section.heading-page2{
 section.heading-BCA{
   background-image: url(https://img.pikbest.com/backgrounds/20200703/education-and-training-drawing-childlike-black-poster-background-map_2752662.jpg!w700wp);
 }
-
-section.heading-page h6,section.heading-page2 h6,section.heading-BCA h6 {
+section.heading-page3{
+  background-image: url(https://wallpaperset.com/w/full/4/4/6/517256.jpg);
+}
+section.heading-page h6,section.heading-page2 h6,section.heading-BCA h6,section.heading-page3 h6 {
   margin-top: 0px;
   font-size: 15px;
   text-transform: uppercase;
@@ -1509,7 +1512,7 @@ section.heading-page h6,section.heading-page2 h6,section.heading-BCA h6 {
   letter-spacing: 1px;
 }
 
-section.heading-page h2,section.heading-page2 h2,section.heading-BCA h2{
+section.heading-page h2,section.heading-page2 h2,section.heading-BCA h2,section.heading-page3 h2{
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 36px;

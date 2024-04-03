@@ -15,4 +15,5 @@ urlpatterns = [
     path("courses/BBA", views.bba_course, name="bba_course"),
     path("courses/MCA", views.mca_course, name="mca_course"),
     path("courses/MBA-courses", views.mba_courses, name="mba_course"),
+    path("FT_courses/data-science", views.data_science, name="data_science"),
 ]

@@ -63,3 +63,6 @@ def mca_course(request):
 
 def mba_courses(request):
     return render(request,"MBA-courses.html")
+
+def data_science(request):
+    return render(request,"FT_courses/data_science.html")

@@ -66,3 +66,12 @@ def mba_courses(request):
 
 def data_science(request):
     return render(request,"FT_courses/data_science.html")
+
+def digital_marketing(request):
+    return render(request,"FT_courses/digital_marketing.html")
+
+def product_management(request):
+    return render(request,"FT_courses/product_management.html")
+
+def web_development(request):
+    return render(request,"FT_courses/web_development.html")

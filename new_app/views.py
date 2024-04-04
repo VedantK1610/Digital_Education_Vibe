@@ -66,3 +66,18 @@ def mba_courses(request):
 
 def data_science(request):
     return render(request,"FT_courses/data_science.html")
+
+def java_fullstack(request):
+    return render(request,"FT_courses/java_fullstack.html")
+
+def ccna(request):
+    return render(request,"FT_courses/ccna.html")
+
+def cyber_security(request):
+    return render(request,"FT_courses/cyber_security.html")
+
+def cloud_computing(request):
+    return render(request,"FT_courses/cloud_computing.html")
+
+
+

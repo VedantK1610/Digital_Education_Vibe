@@ -16,4 +16,8 @@ urlpatterns = [
     path("courses/MCA", views.mca_course, name="mca_course"),
     path("courses/MBA-courses", views.mba_courses, name="mba_course"),
     path("FT_courses/data-science", views.data_science, name="data_science"),
+    path("FT_courses/java-fullstack", views.java_fullstack, name="java_fullstack"),
+    path("FT_courses/ccna", views.ccna, name="CCNA"),
+    path("FT_courses/cyber-security", views.cyber_security, name="cyber_security"),
+    path("FT_courses/cloud-computing", views.cloud_computing, name="cloud_computing"),
 ]

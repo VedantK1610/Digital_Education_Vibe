@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from DEV.settings import EMAIL_HOST_USER
+from new_app.models import Contact
 
 def index(request):
     if request.method=='POST':
@@ -10,6 +11,9 @@ def index(request):
         mobile=request.POST.get('mobile')
         course_select=request.POST.get('course-select')
         message=request.POST.get('message')
+
+        en=Contact(name=name,email=email,course=course_select,phone_number=mobile,message=message)
+        # en.save()
 
         data ={
             'name':name,
@@ -28,7 +32,8 @@ def index(request):
             Enquiry : {}
         '''.format(data['course_select'],data['email'],data['mobile'],data['message'])
 
-        send_mail(data['course_select'],all_message,EMAIL_HOST_USER,[data['email']],fail_silently=False,)
+        send_mail(data['course_select'],all_message,EMAIL_HOST_USER,[EMAIL_HOST_USER],fail_silently=False,)
+        en.save()
     return render(request,"index.html")
 
 def courses(request):

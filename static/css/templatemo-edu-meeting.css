@@ -155,7 +155,7 @@ body {
   }
 }
 
-.main-button-red a {
+.main-button-red a, .main-button-red2 a {
   font-size: 13px;
   color: #fff;
   background-color: #a12c2f;
@@ -1600,7 +1600,7 @@ section.meetings-page .pagination ul li a {
   transition: all .3s;
 }
 
-section.meetings-page .main-button-red {
+section.meetings-page .main-button-red , section.meetings-page .main-button-red2  {
   text-align: center;
 }
 
@@ -1608,6 +1608,12 @@ section.meetings-page .main-button-red a {
   padding: 12px 60px;
   text-align: center;
   margin-top: 30px;
+}
+
+section.meetings-page .main-button-red2 a {
+  padding: 12px 60px;
+  text-align: center;
+
 }
 
 section.meetings-page .pagination ul li.active a,
